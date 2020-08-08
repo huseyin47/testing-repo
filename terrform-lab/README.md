@@ -12,4 +12,4 @@ terraform plan -var-file=dev-terraform.tfvars
 Prod env
 ```
 terraform plan -var-file=dev-terraform.tfvars
-```
+```terraform plan -var-file=prod-terraform.tfvars
